@@ -18,6 +18,10 @@ export const metadata: Metadata = {
   title: 'Chat Connect - web extension with AI chat assistant',
   description:
     'Chat Connect is a web extension with AI chat assistant. It is a tool that allows you to chat and write with AI assistant on any website.',
+  metadataBase: new URL('https://www.chat-connect.ai'),
+  alternates: {
+    canonical: '/',
+  },
 }
 
 export default function RootLayout({
